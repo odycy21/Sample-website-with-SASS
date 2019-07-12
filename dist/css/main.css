@@ -1,0 +1,77 @@
+body {
+  background: #f4f4f4;
+  width: 100%;
+  margin: 0 auto; }
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden; }
+
+#main-header {
+  background: lightcoral;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 600; }
+
+#navbar {
+  background: #333; }
+  #navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: white;
+    font-family: "Lato", sans-serif; }
+  #navbar li {
+    padding: 0 35px 0 35px; }
+  #navbar a {
+    color: #fff;
+    text-decoration: none; }
+  #navbar a:hover {
+    color: lightcoral; }
+
+#showcase {
+  background: url("../img/abstract.jpg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  min-height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 0px 0px 10px 0px; }
+  #showcase h1 {
+    color: #f4f4f4;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 20px;
+    font-family: "Lato", sans-serif; }
+  #showcase p {
+    color: #f4f4f4;
+    font-size: 40px;
+    line-height: 1.6em;
+    font-family: "Lato", sans-serif; }
+
+#main {
+  float: left;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif; }
+
+#sidebar {
+  float: right;
+  width: 25%;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  font-family: "Rubik", sans-serif; }
+
+#main-footer {
+  background: #333;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+  margin-top: 250px;
+  font-family: "Rubik", sans-serif; }
