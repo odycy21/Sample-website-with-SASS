@@ -1,0 +1,7 @@
+
+@mixin containor($color){
+    text-align: center;
+    font-family: $font1;
+    padding:50px 0px 50px 0px;
+    background:$color;
+}

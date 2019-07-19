@@ -1,0 +1,26 @@
+#showcase{
+    background: $showBG;
+    background-repeat: no-repeat;
+  //background-size: cover;
+    background-position:center right;
+    min-height: 300px;
+    margin-bottom:30px;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+
+    h1{
+        color:$primary-color;
+        font-size:50px;
+        line-height:1.6em;
+        padding-top:20px;
+        font-family:$font1;
+    }
+
+
+    p{
+        color:$primary-color;
+        font-size:40px;
+        line-height:1.6em;
+        font-family:$font1;
+    }
+}

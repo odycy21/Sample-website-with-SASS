@@ -1,111 +1,24 @@
-@import 'variables';
+//BASE : contained within this file are all your resets, variables, mixins, and any utility classes.
+@import './base/variables';
+@import './base/mixins';
+
+//COMPONENTS : anything reusable such as buttons, navbars, cards etc.
+@import './components/boxes';
+@import './components/reusable';
 
 
-body{
-    background:$mainBG;
-    width: 100%;
-    margin: 0 auto;
-}
+//LAYOUT : contains all the CSS that handles the layout, such as the container and any grid systems.
+@import './layout/header';
+@import './layout/footer';
+@import './layout/showcase';
+@import './layout/nav';
+@import './layout/contact';
+@import './layout/services';
 
 
-.container{
-    width:80%;
-    margin:auto;
-    overflow:hidden;
-}
 
-#main-header{
-    background:$headerBG;
-    color:#fff;
-    font-family: $font1;
-    padding:10px;
-    font-size:30px;
-    font-weight: 600;
+
+
     
-}
 
 
-#navbar{
-    background:$navBG;
-
-    ul{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        list-style: none;
-        color:white;
-        font-family: $font1;
-    }
-    
-    li{
-        padding:0 35px 0 35px;
-    }
-
-    a{
-        color:$navlink;
-        text-decoration: none;
-    }
-
-    a:hover{
-        color:$headerBG;
-    }
-}
-
-
-
-#showcase{
-    background: $showBG;
-    background-repeat: no-repeat;
-  //background-size: cover;
-    background-position:center right;
-    min-height: 300px;
-    margin-bottom:30px;
-    text-align: center;
-    padding: 0px 0px 10px 0px;
-
-    h1{
-        color:$primary-color;
-        font-size:50px;
-        line-height:1.6em;
-        padding-top:20px;
-        font-family:$font1;
-    }
-
-
-    p{
-        color:$primary-color;
-        font-size:40px;
-        line-height:1.6em;
-        font-family:$font1;
-    }
-}
-
-
-#main{
-    float:left;
-    width:70%;
-    padding:0 30px;
-    box-sizing: border-box;
-    font-family:$font2;
-}
-
-
-#sidebar{
-    float:right;
-    width:25%;
-    padding: 10px;
-    background:$secondary-color;
-    color:$navlink;
-    font-family:$font2;
-}
-
-
-
-#main-footer{
-    background:$secondary-color;
-    color:$primary-color;
-    text-align: center;
-    padding:20px;
-    margin-top: 250px;
-    font-family: $font2;
-}

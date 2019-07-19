@@ -1,0 +1,75 @@
+
+
+
+#contact{
+  
+    @include containor(green);
+    
+    /*
+    text-align: center;
+    font-family: $font1;
+    padding:50px 0px 50px 0px;
+*/
+    #map{
+        float:left;
+        width:60%;
+       display: flex;
+       align-self: center;
+       justify-content: center;
+
+       
+    }
+
+
+    #form{
+      
+        display:flex;
+        float:right;
+        width:35%;
+
+        .form-group
+
+            label{
+            display:block;
+            text-align: left;
+        }
+
+            input{
+                margin-bottom:30px;
+
+            }
+            
+
+    }
+
+    
+}
+
+
+#services{
+    text-align:center;
+    background:$sectionBG1;
+    width:100%;
+    margin:0 auto;
+    ul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    li{
+
+        padding:100px;
+    }
+
+    a{
+        text-decoration: none;
+       
+        &:hover{
+            color:$secondary-color;
+        }
+    }
+
+  
+
+}
