@@ -1,5 +1,1 @@
-#This is my sample website made with html, css, and Sass.
-#Author: Bryan Osal
-#Email: bryanosal@gmail.com
-#It has a workflow using Sass intended for simple website projects.
-#Feel free to clone and use it to practice Sass.
+Hi, my name is Bryan Osal from the Philippines and this is my sample website made with html, css, and Sass. It has a workflow using Sass intended for simple website projects. Feel free to clone and use it to practice Sass and you can contact me at bryanosal@gmail.com. Cheers!
